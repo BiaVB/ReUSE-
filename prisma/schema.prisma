@@ -33,7 +33,7 @@ model Avaliacao {
 
 model Historico {
   id             String   @id @default(uuid())
-  item_id        String   @unique  
+  item_id        String  
   receptor_id    String
   doador_id      String
   data_transacao DateTime
